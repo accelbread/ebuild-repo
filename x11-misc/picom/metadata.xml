@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>accelbread@gmail.org</email>
+    <name>Archit Gupta</name>
+  </maintainer>
+  <use>
+    <flag name="config">Enable config file support</flag>
+    <flag name="drm">Enable support for using drm for vsync</flag>
+    <flag name="opengl">Enable features that require opengl (opengl backend, and opengl vsync methods)</flag>
+    <flag name="dbus">Enable support for D-Bus remote control</flag>
+    <flag name="pcre">Enable regex support in window conditions</flag>
+  </use>
+  <upstream>
+    <remote-id type="github">yshui/picom</remote-id>
+  </upstream>
+</pkgmetadata>
