@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>accelbread</name>
+    <description lang="en">Personal overlay</description>
+    <homepage>https://github.com/Accelbread/ebuild-repo</homepage>
+    <owner type="person">
+      <email>accelbread@gmail.com</email>
+      <name>Archit Gupta</name>
+    </owner>
+    <source type="git">https://github.com/Accelbread/ebuild-repo.git</source>
+    <source type="git">git+ssh://git@github.com/Accelbread/ebuild-repo.git</source>
+    <feed>https://github.com/Accelbread/ebuild-repo/commits/master.atom</feed>
+  </repo>
+</repositories>
+
+
