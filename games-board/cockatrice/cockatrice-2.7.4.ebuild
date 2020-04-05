@@ -1,11 +1,11 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
 inherit cmake-utils
 
-MY_PV="2019-08-31-Release-2.7.2"
+MY_PV="2020-03-20-Release-2.7.4"
 DESCRIPTION="An open-source multiplatform software for playing card games over a network"
 HOMEPAGE="https://github.com/Cockatrice/Cockatrice"
 SRC_URI="${HOMEPAGE}/archive/${MY_PV}.tar.gz -> ${P}.tar.gz"
@@ -45,7 +45,7 @@ DEPEND="${RDEPEND}
 "
 
 # As the default help/about display the sha1 we need it
-SHA1='5372859'
+SHA1='e8d5715'
 
 S="${WORKDIR}/Cockatrice-${MY_PV}"
 
