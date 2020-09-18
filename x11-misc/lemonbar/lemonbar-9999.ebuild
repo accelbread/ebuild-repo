@@ -7,7 +7,7 @@ inherit git-r3
 
 DESCRIPTION="A featherweight, lemon-scented, bar based on xcb"
 HOMEPAGE="https://github.com/LemonBoy/bar"
-EGIT_REPO_URI="https://github.com/osense/bar.git"
+EGIT_REPO_URI="https://github.com/ph111p/bar.git"
 
 LICENSE="MIT"
 SLOT="0"
