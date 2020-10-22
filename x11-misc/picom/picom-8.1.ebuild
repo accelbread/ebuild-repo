@@ -25,7 +25,6 @@ COMMON_DEPEND="
 	dbus? ( sys-apps/dbus )
 	config? (
 		dev-libs/libconfig
-		dev-libs/libxdg-basedir
 	)
 	opengl? ( virtual/opengl )
 	pcre? ( dev-libs/libpcre:3 )
@@ -38,8 +37,6 @@ DEPEND="${COMMON_DEPEND}
 	app-text/asciidoc
 	x11-base/xorg-proto"
 
-PATCHES=( "${FILESDIR}/picom-7.5-remove-compton-compat.patch" )
-
 src_configure() {
 	local emesonargs=(
 		$(meson_use config config_file)
@@ -47,7 +44,7 @@ src_configure() {
 		$(meson_use drm vsync_drm)
 		$(meson_use opengl)
 		$(meson_use dbus)
-		-Dbuild_docs=true
+		-Dwith_docs=true
 	)
 	meson_src_configure
 }
