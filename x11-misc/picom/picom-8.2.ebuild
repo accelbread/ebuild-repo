@@ -11,7 +11,6 @@ SRC_URI="https://github.com/yshui/picom/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 LICENSE="|| ( MPL-2.0 MIT )"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="dbus +drm opengl +pcre xinerama"
 IUSE="+config +pcre drm +opengl dbus"
 
 COMMON_DEPEND="
