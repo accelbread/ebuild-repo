@@ -3,11 +3,11 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{7,8} )
+PYTHON_COMPAT=( python3_{8,9} )
 
 inherit distutils-r1
 
-DESCRIPTION="Isort plugin for python-language-server"
+DESCRIPTION="Isort plugin for python-lsp-server"
 HOMEPAGE="https://pypi.org/project/pyls-isort/ https://github.com/paradoxxxzero/pyls-isort"
 SRC_URI="mirror://pypi/${PN:0:1}/${PN}/${P}.tar.gz"
 
@@ -21,5 +21,5 @@ DEPEND="
 "
 RDEPEND="
 	dev-python/isort[${PYTHON_USEDEP}]
-	dev-python/python-language-server[${PYTHON_USEDEP}]
+	dev-python/python-lsp-server[${PYTHON_USEDEP}]
 "
